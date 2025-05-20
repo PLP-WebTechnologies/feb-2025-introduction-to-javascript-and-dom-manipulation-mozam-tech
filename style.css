@@ -1,0 +1,27 @@
+/* Add transitions for smooth interactions */
+input, button {
+    transition: 0.3s ease-in-out;
+}
+
+/* Highlight input fields with errors */
+.error-input {
+    border: 2px solid red !important;
+    background-color: #ffebeb;
+}
+
+/* Success input fields */
+.success-input {
+    border: 2px solid green !important;
+}
+
+/* Button hover effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
